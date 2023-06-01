@@ -4,3 +4,11 @@ body{
 div{
     background-color: rgba(0, 255, 255, 0.726);
 }
+#output{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-top:10px solid #AA4465;
+    padding: 10px;
+    float:none;
+    text-align:left;
+}

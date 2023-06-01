@@ -77,7 +77,7 @@ function send() {
     removeCharAt3 = removeCharAt2.replace(charAt3, "_");
 	console.log(removeCharAt3);
 
-    questionWord = "<h4 id='wordDisplay'> P. "+removeCharAt3+"</h4>";
+    questionWord = "<h4 id='wordDisplay'> 4x6. "+removeCharAt3+"</h4>";
     input_box = "<br>Resposta : <input type='text' id='inputCheckBox'>";
     checkButton = "<br><br><button class='btn btn-info' onclick='check()'>Checar</button>";
     row =  questionWord + input_box + checkButton ; 
